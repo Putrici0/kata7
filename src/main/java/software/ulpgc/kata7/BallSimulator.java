@@ -22,7 +22,7 @@ public class BallSimulator extends JPanel{
 
         ballY = calculateInitialY();
 
-        Timer timer = new Timer(1, e -> updateSimulation());
+        Timer timer = new Timer(1, _ -> updateSimulation());
         timer.start();
     }
 
