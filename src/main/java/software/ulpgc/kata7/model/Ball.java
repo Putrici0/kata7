@@ -1,4 +1,4 @@
-package software.ulpgc.kata7;
+package software.ulpgc.kata7.model;
 
 public record Ball(double radius, double restitution) {
 
